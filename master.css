@@ -1,0 +1,368 @@
+@import url('https://fonts.cdnfonts.com/css/product-sans');
+
+*{
+    font-family: 'Product Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: #000000;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo{
+    text-decoration: none;
+    color: #ff0000;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+    transition: color 0.3s ease;
+}
+
+.navigation a:hover{
+    color: #ff0000;
+}
+
+section{
+    padding: 10px 200px;
+    position: relative;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to bottom, red, black);
+    background-attachment: fixed;
+}
+
+.main h2{
+    color: #ffffff;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #000000;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.main h2 span span{
+    color: #ffffff;
+    font-size: 1em;
+}
+
+.main h3{
+    color: #ffffff;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+.work{
+    font-size: 1rem;
+    padding: 0.8em 2em;
+    margin: 30px;
+    background-color: #000;
+    border: 3px solid red;
+    border-radius: 1em;
+    color: #fff;
+    font-weight: bolder;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+    box-shadow: -5px 5px 0px 0px white;
+    letter-spacing: 1px;
+}
+
+.work:hover{
+    transform: translate(5px, -5px);
+}
+
+.social a{
+    color: #ffffff;
+    transition: color 0.3s ease;
+    padding: 5px;
+    z-index: 999;
+    font-size: 1.7em;
+}
+
+.social a:hover{
+    color: #ff0000;
+}
+/**/ /**/ /**/ /**/ /**/
+#services{
+    padding: 20px 20px 20px 20px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-shadow: -2px 1px 0px rgba(225, 0, 0);
+}
+
+.circle-crop {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #ff0000; /* Adding a blue border */
+    box-shadow: -5px 5px 0px 0px rgb(0, 0, 0); /* Adding a subtle shadow */
+}
+
+.circle-crop img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1 {
+    width: 95%; /* Adjust the width as desired */
+    height: 200px;
+    display: flex;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20px; /* Added margin for spacing */
+}
+
+.left-section {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Left align the text within right section */
+    flex: 2;
+    padding: 20px;
+    border-left: 1px solid #ccc;
+}
+
+.circle-crop {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #ff0000; /* Adding a blue border */
+    box-shadow: -5px 5px 0px 0px rgb(0, 0, 0); /* Adding a subtle shadow */
+}
+
+.circle-crop img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left; /* Center text horizontally */
+    /* font-size: 18px; */ /* Adjusted font size */
+    padding: 20px;
+}
+
+
+/*The Square cards section*/
+
+
+.square-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px; /* Add margin to separate from the main card */
+    margin-bottom: 80px;
+}
+
+.square-card {
+    width: 21.25em;
+    height: 21.25em;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 10px; /* Add some spacing between the square cards */
+    transition: 0.7s ease;
+}
+
+.square-card:hover{
+    transform: scale(1.1);
+}
+
+.icon{
+    color: blue;
+    font-size: 8em;
+    text-align: center;
+}
+
+.details{
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.details h3{
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.details p span{
+    color: rgb(255, 0, 0);
+}
+.centered-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    /* height: 100vh; */ /* Set container height, adjust as needed */
+}
+
+.centered-image {
+    display: block;
+    max-width: 100%; /* Adjust image size */
+    max-height: 100%; /* Adjust image size */
+}
+
+#web {
+    color: red;
+}
+
+.card1 .left-section .Plogo{
+    font-size: 10em;
+}
+
+.gitbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px; /* Adjust padding to increase button size */
+    font-size: 22px;
+    padding: 0.8em 2em;
+    margin: 30px;
+    background-color: #000;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 1em;
+    color: #fff;
+    font-weight: bolder;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+    box-shadow: -5px 5px 0px 0px rgb(255, 0, 0);
+    letter-spacing: 1px;
+}
+
+.gitbtn:hover{
+    transform: translate(5px, -5px);
+}
+
+.main-btn{
+    text-decoration: none;
+}
+
+.right-section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+    padding: 20px;
+    border-left: 1px solid #ccc;
+}
+
+.projects{
+    background: linear-gradient(to bottom, red, black);
+    background-attachment: fixed;
+}
+
+.projects .card1{
+    margin-bottom: 70px;
+}
+
+.title2{
+    display: flex;
+    justify-content: center;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-shadow: -2px 1px 0px rgb(255, 255, 255);
+}
+
+.square-card .icon2 {
+    font-size: 7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff0000; /* Example icon color */
+    margin-top: 50px;
+    margin-bottom: 50px; /* Add some spacing between icon and details */
+}
+
+.insta{
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer{
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title{
+    font-size: 1.3em;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.footer-title span{
+    color: #000000;
+}
+
+.social2 a{
+    color: #ffffff;
+    transition: color 0.3s ease;
+    padding: 5px;
+    z-index: 999;
+    font-size: 1.7em;
+}
+
+
+.social2 a:hover {
+    color: #000000; /* Color to change to when hovering */
+}
